@@ -1,0 +1,29 @@
+commit 811a8a8bb15badf8b5de607df48286f933fd5ce6
+Author: Aaron Pankratz <pankratz.aaron@gmail.com>
+Date:   Thu Mar 1 15:05:21 2012 -0600
+
+    finished acceptance tests, added documentation
+
+commit 1837a667c3af857a302c282ca1638a22ef65ef30
+Author: Aaron Pankratz <pankratz.aaron@gmail.com>
+Date:   Thu Mar 1 11:31:28 2012 -0600
+
+    implemented new cache system and final prediction algorithm
+
+commit 4e2db76de100b24c71e1e71c20af91d3fb76a512
+Author: Aaron Pankratz <pankratz.aaron@gmail.com>
+Date:   Tue Feb 28 18:05:13 2012 -0600
+
+    started on unit tests and commenting Netflix.py
+
+commit 35ff0142295af9c829020d67d6f455d7b0ade30d
+Author: Aaron Pankratz <pankratz.aaron@gmail.com>
+Date:   Tue Feb 28 17:25:25 2012 -0600
+
+    First implementation, prediction based soley on overall average rating for a movie
+
+commit 96653f7850bad3eec34dd7d6e6914c2f60feeec8
+Author: Aaron Pankratz <pankratz.aaron@gmail.com>
+Date:   Tue Feb 28 17:13:48 2012 -0600
+
+    wrote 2 auxiliary programs that caches the overall average rating for each movie
