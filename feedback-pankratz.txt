@@ -1,0 +1,25 @@
+-- Feedback for Project 3: Netflix, Aaron Pankratz
+
+Total: 0/65
+
+A runtime error prevented the program from executing.
+
+==== Scoring Breakdown ===========
+
+Issue Tracker and Wiki:
+
+Private Git Repository:
+
+Unit Tests:
+
+Acceptance Tests:
+
+Implementation - RMSE:
+
+Implementation - Design, Asserts, and Execution:
+
+Documentation:
+
+Google Form:
+
+Extra Credit:
