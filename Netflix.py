@@ -17,7 +17,7 @@ def Netflix_main(r,w,l,probe):
     movieavgcache = eval(f.read())
     f = open('caches/customer_ratings.txt', 'r')
     customerratingcache = eval(f.read())
-    
+
     # initialize other variables
     totalrecords = 0
     a = 0.0
@@ -42,10 +42,10 @@ def Netflix_main(r,w,l,probe):
         else :
             #end of line, for RunNetflix.in
             if s[0] == '\n':
-                
+
                 # calculate RMSE
                 RMSE = Netflix_RMSE(listforcalc, list2forcalc)
-    
+
                 # write to output file
                 w.write(str(RMSE)+ '\n')
                 for line in listforprint:
@@ -70,16 +70,15 @@ def Netflix_main(r,w,l,probe):
 
     # if outputting to ProbeNetflix.out
     if probe:
-        
+
         # calculate RMSE
         RMSE = Netflix_RMSE(listforcalc, list2forcalc)
-    
+
         # write to output file
         w.write(str(RMSE)+ '\n')
         for line in listforprint:
             w.write(line)
         w.write(str(totalrecords) + ' records total\n')
-                
 
 def sqre_diff (x, y) :
     """""
