@@ -1,16 +1,9 @@
 # Introduction & Specifications #
 
-Here is the wiki page Project #3 for CS 373 Software Engineering taught by Glenn Downing
+Here is the wiki page for a project I did in college to solve the Netflix challenge.
 
 <h2>Specifications </h2>
 Write a program to win the Netflix Prize.
-
-For this project, the additional minium requirement for getting a non-zero grade is to produce an RMSE of less than 1.0. and a runtime of less than 1 min.
-
-You can earn 5 pts of extra credit, if you produce an RMSE of less than 0.9474.
-
-You can earn 5 pts of extra credit, if you work with a partner using pair programming and vouch for the fact that you worked on the project together for more than 75% of the time.
-
 More info and comments about the Netflix challenge can be found here. http://www.netflixprize.com/
 
 
